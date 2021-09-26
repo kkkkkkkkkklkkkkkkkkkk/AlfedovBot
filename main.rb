@@ -2,7 +2,7 @@
 
 require 'telegram/bot'
 
-TOKEN = '1994863975:AAHbs2b1LcB0M8glpXbiBO_71kyO2aKYIfA'
+TOKEN = 'YOUR_TOKEN'
 
 def test_send_message_with_markdown
   tb = telebot.TeleBot(TOKEN)
